@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Rohit Joshi</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">&lt;RJ&gt;</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<div class="container">
+    <img src="about.png" alt="about">
+    <div class="about-right">
+        <p>A tech enthusiast and a developer by passion. I love to code and learn new technologies.<br>
+            Being an autodidact I love to help others in coding. 💻<br>
+            I am a firm believer of saying "Knowledge without implementation is like a rocket without fuel 🚀" and hence I tend to find solution to real-life problems.<br>
+            I love to work in a team because "Two heads are better than one".
+            I am currently a Webmaster in PCCoE ACM Student Chapter. My responsibilities include updation in Official Website and 
+            creating websites along with my colleagues for department's flagship events.<br>
+             I am currently pursuing BE in Computer Science('23) from PCCOE, Pune.<br>
+            My hobbies include playing football ⚽ and listening to music 🎧🎶.<br>
+            My skills include: Python,CPP,C,HTML,CSS,JS,Jquery,Numpy,Pandas,Matplotlib
+        </p>
+    </div>
+</div>
+<script src="bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-light', 'shadow');
+        } else {
+          nav.classList.remove('bg-light', 'shadow');
+        }
+      });
+    </script>
+</body>
+</html>

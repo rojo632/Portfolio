@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Navbar*/
+.navbar-brand{
+
+    font-size:3rem;
+}
+
+.nav-link{
+    color:black;
+    font-size: 2rem;
+}
+
+
+/*social media*/
+
+.container{
+    width: 100%;
+    padding:20px;
+    margin:30px;
+}
+
+.container img{
+    width: 50%;
+    float: left;
+    width: 600px;
+    height: 650px;
+    padding-top:200px;
+    padding-right: 70px;
+}
+
+
+
+.social-media button{
+    background-color: black;
+    border-radius: 8px;
+    width:200px;
+    height:80px;
+    float:right;
+    margin-top: 350px;
+  
+}
+
+.social-media button a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
