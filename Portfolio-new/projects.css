@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Navbar*/
+.navbar-brand{
+
+    font-size:3rem;
+}
+
+.nav-link{
+    color:black;
+    font-size: 2rem;
+}
